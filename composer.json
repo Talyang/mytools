@@ -1,0 +1,27 @@
+{
+    "name": "flyty/mytools",
+    "description": "This is my tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "talyang",
+            "email": "talyangtf@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Flyty\\Mytools\\": "src/",
+            "Flyty\\MyFunc\\": "src/MyFunc/src"
+        },
+        "files": [
+            "src/Helpers/Functions.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "extra":{
+        "branch-alias":{
+            "dev-master":"1.0.x-dev"
+        }
+    }
+}
