@@ -11,11 +11,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Flyty\\Mytools\\": "src/",
-            "Flyty\\MyFunc\\": "src/MyFunc/src"
+            "Flyty\\Mytools\\": "src/"
         },
         "files": [
-            "src/Helpers/Functions.php"
+            "src/Helpers/Functions.php",
+            "src/Helpers/ArrFunctions.php",
+            "src/Helpers/StrFunctions.php"
         ]
     },
     "minimum-stability": "stable",

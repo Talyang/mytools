@@ -1,6 +1,6 @@
 <?php
 
-if(!function_exists('jiujiu_uuid')){
+if(!function_exists('fly_uuid')){
     /**
      * @param int $version | 版本号
      * @param string $salt | 加盐
@@ -9,8 +9,8 @@ if(!function_exists('jiujiu_uuid')){
      * @param string $flavour | 分隔符
      * @return string
      */
-    function jiujiu_uuid(int $version = 0, $salt = '',  $flavour = '-', $v3_cut = 8, $v4_cut = [8, 4, 4, 4, 12]){
-        $uuid_model = new \JiuJiu\Tools\Uuid($salt);
+    function fly_uuid(int $version = 0, $salt = '',  $flavour = '-', $v3_cut = 8, $v4_cut = [8, 4, 4, 4, 12]){
+        $uuid_model = new \Flyty\Mytools\Uuid($salt);
         switch ($version){
             case 0:
                 $uuid = $uuid_model ->v0();// 1618388518.05446076a6260d48a

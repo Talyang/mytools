@@ -3,10 +3,9 @@
 
 namespace App\Rpc\Service;
 
-use Hyperf\RpcServer\Annotation\RpcService;
-use JiuJiu\Tools\DateTime;
-use JiuJiu\Tools\ListToTree;
-use JiuJiu\Tools\TreeToList;
+use Flyty\Mytools\DateTime;
+use Flyty\Mytools\ListToTree;
+use Flyty\Mytools\TreeToList;
 
 /**
  * Class IndexService
@@ -93,7 +92,7 @@ class IndexService
      * @return array|array[]
      */
     public function uuid(){
-        return responseInfo(jiujiu_uuid(4));
+        return responseInfo(fly_uuid(4));
     }
 
     public function underline_to_hump(){

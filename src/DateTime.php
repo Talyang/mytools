@@ -1,12 +1,12 @@
 <?php
 
 
-namespace JiuJiu\Tools;
+namespace Flyty\Mytools;
 
 /**
  * 时间起始段 开始-结束 （十位秒级时间戳）
  * Class DateTime
- * @package JiuJiu\Tools\Lib
+ * @package Flyty\Tools\Lib
  */
 class DateTime
 {

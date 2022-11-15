@@ -1,7 +1,7 @@
 <?php
 
 
-namespace JiuJiu\Tools;
+namespace Flyty\Mytools;
 
 
 class TreeToList
